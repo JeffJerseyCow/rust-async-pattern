@@ -1,0 +1,15 @@
+[package]
+name = "multit"
+version = "0.1.0"
+authors = ["Jeff <jeff@cyberbull.sh>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+trust-dns-client = "0.20.1"
+trust-dns-proto = "0.20.1" 
+tokio = { version = "1", features = ["full"] }
+futures = "0.3.13"
+trust-dns-server = "0.20.1"
+rand = "0.8.3"
